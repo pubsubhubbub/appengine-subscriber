@@ -1,0 +1,4 @@
+cron:
+- description: remove old entries
+  url: /cleanup
+  schedule: every 1 hours
