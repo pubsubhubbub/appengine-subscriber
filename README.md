@@ -36,5 +36,8 @@ E.g. to subscribe to a feed at http://www.example.com/feed with this instance, y
 curl http://pubsubhubbub.appspot.com/ -d 'hub.topic=http://www.example.com/feed&hub.callback=http://your-app-id.appspot.com/subscriber/random&hub.mode=subscribe'
 ```
 
+At the Google hub, you can also use the [web
+interface](https://pubsubhubbub.appspot.com/subscribe) to subscribe.
+
 When you subsequently ping the hub about the specified topic and reload the
 browser interface you should see the changed entries displayed.
